@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmHelper", "OsmHelper\OsmHelper.csproj", "{C2FEA508-F2A0-4B02-9447-603A2E491095}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmHelperTests", "OsmHelperTests\OsmHelperTests.csproj", "{BFA21FD6-BBE7-4DE5-80AC-574123102C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsmHelperInterfaces", "OsmHelperInterfaces\OsmHelperInterfaces.csproj", "{0A9FB5AF-6716-4621-B2AB-7D658DC33799}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C2FEA508-F2A0-4B02-9447-603A2E491095}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2FEA508-F2A0-4B02-9447-603A2E491095}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2FEA508-F2A0-4B02-9447-603A2E491095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA21FD6-BBE7-4DE5-80AC-574123102C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA21FD6-BBE7-4DE5-80AC-574123102C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA21FD6-BBE7-4DE5-80AC-574123102C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA21FD6-BBE7-4DE5-80AC-574123102C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9FB5AF-6716-4621-B2AB-7D658DC33799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9FB5AF-6716-4621-B2AB-7D658DC33799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9FB5AF-6716-4621-B2AB-7D658DC33799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9FB5AF-6716-4621-B2AB-7D658DC33799}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
