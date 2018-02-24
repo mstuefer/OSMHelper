@@ -17,7 +17,7 @@ namespace OsmHelper
         }
 
         /// <summary>
-        /// Creates a Node with given id. 
+        /// Creates a Node with given id.
         /// Distance has to be set if specific node instance is used to represent a neighbor in the adjacency list.
         /// </summary>
         /// <param name="id"></param>

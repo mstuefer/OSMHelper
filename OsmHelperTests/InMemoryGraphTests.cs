@@ -22,7 +22,7 @@ namespace OsmHelperTests
             _osmXml.Append("<bounds minlat=\"46.4668700\" minlon=\"11.3262900\" maxlat=\"46.4717200\" maxlon=\"11.3381500\" />");
             _osmXml.Append("<node id=\"2268440800\" visible=\"true\" version=\"1\" changeset=\"15739427\" timestamp=\"2013-04-15T17:02:59Z\" user=\"pikappa79\" uid=\"330007\" lat=\"46.4677853\" lon=\"11.3361243\"/>");
 
-            _osmXml.Append("<node id=\"2179592657\" visible=\"true\" version=\"2\" changeset=\"15939838\" timestamp=\"2013-05-01T21:58:42Z\" user=\"Skombi\" uid=\"1380953\" lat=\"46.4716178\" lon=\"11.3248174\" />");            
+            _osmXml.Append("<node id=\"2179592657\" visible=\"true\" version=\"2\" changeset=\"15939838\" timestamp=\"2013-05-01T21:58:42Z\" user=\"Skombi\" uid=\"1380953\" lat=\"46.4716178\" lon=\"11.3248174\" />");
             _osmXml.Append("<node id=\"292407691\" visible=\"true\" version=\"2\" changeset=\"38902841\" timestamp=\"2016 - 04 - 26T20: 47:58Z\" user=\"luschi\" uid=\"1714220\" lat=\"46.4711124\" lon=\"11.3265284\"/>");
 
             // First regular way to add
@@ -178,7 +178,6 @@ namespace OsmHelperTests
             Assert.IsTrue(_graph.OsmGraph[2179592657].First.Value.Distance > 0.1430986);
         }
 
-        
         [TestMethod]
         public void GraphDownloadTest()
         {

@@ -134,7 +134,7 @@ namespace OsmHelper
 
         /// <summary>
         /// Adds node with given id if not already present in our nodes list.
-        /// Increases counter on node to understand if node is an intersection of ways/edges. 
+        /// Increases counter on node to understand if node is an intersection of ways/edges.
         /// (Intersection: all nodes with counter >= 1)
         /// </summary>
         /// <param name="id"></param>

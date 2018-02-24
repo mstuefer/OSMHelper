@@ -215,7 +215,7 @@ namespace OsmHelper
         {
             // Assumption empty string is for motorized vehicles (as written in OSM Wiki)
             return string.IsNullOrEmpty(highway) || !_prohibitedWaysForMotorizedVehicles.Contains(highway);
-        } 
+        }
 
         /*
         private void CutNodesWithoutNeighbors()

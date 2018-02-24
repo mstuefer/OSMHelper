@@ -27,8 +27,8 @@ namespace OsmHelper
             latitude1 = ToRadians(latitude1);
             latitude2 = ToRadians(latitude2);
 
-            var a = Math.Sin(deltaLatitude / 2) * Math.Sin(deltaLatitude / 2) + 
-                Math.Sin(deltaLongitude / 2) * Math.Sin(deltaLongitude / 2) * 
+            var a = Math.Sin(deltaLatitude / 2) * Math.Sin(deltaLatitude / 2) +
+                Math.Sin(deltaLongitude / 2) * Math.Sin(deltaLongitude / 2) *
                 Math.Cos(latitude1) * Math.Cos(latitude2);
             return meanEarthRadius * 2 * Math.Asin(Math.Sqrt(a));
         }

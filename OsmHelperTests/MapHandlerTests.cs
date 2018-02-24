@@ -35,7 +35,7 @@ namespace OsmHelperTests
             var buffer = new byte[_mapfileFirstLine.Length];
             mapFileStream.Read(buffer, 0, _mapfileFirstLine.Length);
 
-            var bufferString = System.Text.Encoding.Default.GetString(buffer); 
+            var bufferString = System.Text.Encoding.Default.GetString(buffer);
 
             Assert.IsTrue(bufferString.Equals(_mapfileFirstLine));
 
